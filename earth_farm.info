@@ -1,0 +1,5 @@
+name = Earth Farm 
+description = Stanford Framework subtheme for the farm site.
+core = 7.x
+base theme = stanford_framework
+stylesheets[all][] = stylesheets/style.css

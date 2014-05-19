@@ -1,0 +1,19 @@
+/* http://www.stanford.edu/group/webdev/color/ */
+/* line 4, ../sass/partials/_typography.scss */
+.navbar .nav li a {
+  color: #fbfbf9;
+}
+
+/* line 9, ../sass/style.scss */
+.navbar {
+  background-color: #709d80;
+}
+/* line 11, ../sass/style.scss */
+.navbar li a {
+  color: #fbfbf9;
+}
+
+/* line 19, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #709d80;
+}

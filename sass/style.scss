@@ -1,0 +1,21 @@
+@import "compass/css3";
+@import "compass/utilities";
+@import "compass/typography";
+@import "partials/colors";
+@import "partials/typography";
+
+
+
+.navbar {
+  background-color: $olive;
+  li a {
+    color: $white;
+  }
+}
+
+
+//Subheaders
+
+h1,h2,h3,h4,h5,h6 {
+  color: $olive;
+}
