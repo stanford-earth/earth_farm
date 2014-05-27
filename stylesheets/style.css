@@ -17,3 +17,9 @@
 h1, h2, h3, h4, h5, h6 {
   color: #709d80;
 }
+
+/* line 24, ../sass/style.scss */
+.block h1, .block h2, .block h3, .block h4, .block h5, .block h5 {
+  border-bottom: 2px solid #709d80;
+  padding-bottom: 3px;
+}
