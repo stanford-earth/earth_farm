@@ -97,6 +97,31 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.4em;
 }
 
+/* line 82, ../sass/partials/_typography.scss */
+.view.carousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 84, ../sass/partials/_typography.scss */
+.view.carousel .carousel-caption h2 {
+  color: #fbfbf9;
+  border-bottom: none;
+}
+/* line 88, ../sass/partials/_typography.scss */
+.view.carousel .carousel-caption.carousel-light {
+  background: rgba(255, 255, 255, 0.5);
+  color: #3f3c30;
+}
+/* line 91, ../sass/partials/_typography.scss */
+.view.carousel .carousel-caption.carousel-light h2 {
+  color: #3f3c30;
+}
+
+/* line 98, ../sass/partials/_typography.scss */
+.carousel-controls,
+.carousel-dots {
+  display: none;
+}
+
 /* line 11, ../sass/style.scss */
 .front .tabs {
   display: none;

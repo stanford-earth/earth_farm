@@ -77,3 +77,24 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
+// Carousel
+
+.view.carousel .carousel-caption {
+  background: rgba(0,0,0,0.5);
+  h2 {
+    color: $white;
+    border-bottom: none;
+  }
+  &.carousel-light {
+      background: rgba(255,255,255,0.5);
+      color: $black;
+    h2 {
+      color: $black;
+    }
+  }
+}
+
+.carousel-controls,
+.carousel-dots {
+  display: none;
+}
