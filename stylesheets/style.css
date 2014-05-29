@@ -1,25 +1,61 @@
 /* http://www.stanford.edu/group/webdev/color/ */
-/* line 2, ../sass/partials/_typography.scss */
-.navbar, .navbar-inner {
-  background-color: #89a85e;
+/* line 1, ../sass/partials/_typography.scss */
+body {
+  font-size: 16px;
 }
-/* line 4, ../sass/partials/_typography.scss */
-.navbar li a, .navbar-inner li a {
+
+/* line 6, ../sass/partials/_typography.scss */
+.navbar,
+.navbar-inner {
+  background-color: #5e8d6c;
+}
+/* line 11, ../sass/partials/_typography.scss */
+.navbar .nav li a,
+.navbar .nav li a:hover, .navbar .nav li.dropdown.open .dropdown-toggle,
+.navbar-inner .nav li a,
+.navbar-inner .nav li a:hover,
+.navbar-inner .nav li.dropdown.open .dropdown-toggle {
+  background-color: transparent;
+  color: #fbfbf9;
+  font-size: 1.1em;
+  font-weight: 200;
+  padding: 1em;
+}
+/* line 22, ../sass/partials/_typography.scss */
+.navbar .nav li.active a,
+.navbar .nav li.active a:hover,
+.navbar .nav li.active-trail a,
+.navbar .nav li.active-trail a:hover,
+.navbar-inner .nav li.active a,
+.navbar-inner .nav li.active a:hover,
+.navbar-inner .nav li.active-trail a,
+.navbar-inner .nav li.active-trail a:hover {
+  background-color: #89a85e;
+  border-radius: 0;
   color: #fbfbf9;
 }
 
-/* line 12, ../sass/partials/_typography.scss */
+/* line 33, ../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #89a85e;
+  color: #5e8d6c;
 }
 
-/* line 17, ../sass/partials/_typography.scss */
+/* line 38, ../sass/partials/_typography.scss */
 .block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
-  border-bottom: 2px solid #89a85e;
+  border-bottom: 2px solid #5e8d6c;
   padding-bottom: 3px;
+}
+/* line 42, ../sass/partials/_typography.scss */
+.block h2 {
+  font-size: 1.4em;
 }
 
 /* line 11, ../sass/style.scss */
 .front .tabs {
   display: none;
+}
+
+/* line 18, ../sass/style.scss */
+#header #logo img {
+  max-width: 100%;
 }

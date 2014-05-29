@@ -12,3 +12,9 @@
     display: none;
   }
 }
+
+// Allow logo to display full-width
+
+#header #logo img {
+  max-width: 100%;
+}

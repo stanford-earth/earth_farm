@@ -1,8 +1,29 @@
+body {
+  font-size: 16px;
+}
 
-.navbar, .navbar-inner {
+.navbar,
+.navbar-inner, {
   background-color: $olive;
-  li a {
-    color: $white;
+  .nav li {
+    a,
+    a:hover,
+    &.dropdown.open .dropdown-toggle {
+      background-color: transparent;
+      color: $white;
+      font-size: 1.1em;
+      font-weight: 200;
+      padding: 1em;
+    }
+  }
+  .nav li.active,
+  .nav li.active-trail {
+    a,
+    a:hover {
+      background-color: $light-olive;
+      border-radius: 0;
+      color: $white;
+    }
   }
 }
 
@@ -18,4 +39,8 @@ h1,h2,h3,h4,h5,h6 {
     border-bottom: 2px solid $olive;
     padding-bottom: 3px;
   }
+  h2 {
+    font-size: 1.4em;
+  }
 }
+
