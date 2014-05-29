@@ -2,9 +2,13 @@ body {
   font-size: 16px;
 }
 
+a {transition: all 0.25s ease;}
+
 .navbar,
 .navbar-inner, {
   background-color: $olive;
+  border-radius: 5px;
+  background-clip: border-box; 
   .nav li {
     a,
     a:hover,
@@ -13,7 +17,14 @@ body {
       color: $white;
       font-size: 1.1em;
       font-weight: 200;
-      padding: 1em;
+      padding: .5em;
+    }
+    a:hover {
+      background-color: $light-olive;
+    }
+    li a,
+    li a:hover {
+      padding: .25em;
     }
   }
   .nav li.active,
@@ -21,8 +32,30 @@ body {
     a,
     a:hover {
       background-color: $light-olive;
-      border-radius: 0;
+      border-radius: 5px;
+      background-clip: border-box; 
       color: $white;
+    }
+    .li a,
+    .li a:hover {
+
+    }
+  }
+  ul.dropdown-menu {
+    border-radius: 5px;
+    background-color: $olive;
+    padding: 0;
+    li,
+    li.active-trail,
+    li.active {
+      a {
+        background-color: transparent;
+        color: $white !important;
+        padding: .25em;
+      }
+      a:hover {
+        background-color: $light-olive !important; 
+      }
     }
   }
 }

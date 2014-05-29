@@ -4,12 +4,19 @@ body {
   font-size: 16px;
 }
 
-/* line 6, ../sass/partials/_typography.scss */
+/* line 5, ../sass/partials/_typography.scss */
+a {
+  transition: all 0.25s ease;
+}
+
+/* line 8, ../sass/partials/_typography.scss */
 .navbar,
 .navbar-inner {
   background-color: #5e8d6c;
+  border-radius: 5px;
+  background-clip: border-box;
 }
-/* line 11, ../sass/partials/_typography.scss */
+/* line 15, ../sass/partials/_typography.scss */
 .navbar .nav li a,
 .navbar .nav li a:hover, .navbar .nav li.dropdown.open .dropdown-toggle,
 .navbar-inner .nav li a,
@@ -19,9 +26,21 @@ body {
   color: #fbfbf9;
   font-size: 1.1em;
   font-weight: 200;
-  padding: 1em;
+  padding: .5em;
 }
 /* line 22, ../sass/partials/_typography.scss */
+.navbar .nav li a:hover,
+.navbar-inner .nav li a:hover {
+  background-color: #89a85e;
+}
+/* line 26, ../sass/partials/_typography.scss */
+.navbar .nav li li a,
+.navbar .nav li li a:hover,
+.navbar-inner .nav li li a,
+.navbar-inner .nav li li a:hover {
+  padding: .25em;
+}
+/* line 33, ../sass/partials/_typography.scss */
 .navbar .nav li.active a,
 .navbar .nav li.active a:hover,
 .navbar .nav li.active-trail a,
@@ -31,21 +50,49 @@ body {
 .navbar-inner .nav li.active-trail a,
 .navbar-inner .nav li.active-trail a:hover {
   background-color: #89a85e;
-  border-radius: 0;
+  border-radius: 5px;
+  background-clip: border-box;
   color: #fbfbf9;
 }
+/* line 44, ../sass/partials/_typography.scss */
+.navbar ul.dropdown-menu,
+.navbar-inner ul.dropdown-menu {
+  border-radius: 5px;
+  background-color: #5e8d6c;
+  padding: 0;
+}
+/* line 51, ../sass/partials/_typography.scss */
+.navbar ul.dropdown-menu li a,
+.navbar ul.dropdown-menu li.active-trail a,
+.navbar ul.dropdown-menu li.active a,
+.navbar-inner ul.dropdown-menu li a,
+.navbar-inner ul.dropdown-menu li.active-trail a,
+.navbar-inner ul.dropdown-menu li.active a {
+  background-color: transparent;
+  color: #fbfbf9 !important;
+  padding: .25em;
+}
+/* line 56, ../sass/partials/_typography.scss */
+.navbar ul.dropdown-menu li a:hover,
+.navbar ul.dropdown-menu li.active-trail a:hover,
+.navbar ul.dropdown-menu li.active a:hover,
+.navbar-inner ul.dropdown-menu li a:hover,
+.navbar-inner ul.dropdown-menu li.active-trail a:hover,
+.navbar-inner ul.dropdown-menu li.active a:hover {
+  background-color: #89a85e !important;
+}
 
-/* line 33, ../sass/partials/_typography.scss */
+/* line 66, ../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #5e8d6c;
 }
 
-/* line 38, ../sass/partials/_typography.scss */
+/* line 71, ../sass/partials/_typography.scss */
 .block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
   border-bottom: 2px solid #5e8d6c;
   padding-bottom: 3px;
 }
-/* line 42, ../sass/partials/_typography.scss */
+/* line 75, ../sass/partials/_typography.scss */
 .block h2 {
   font-size: 1.4em;
 }
