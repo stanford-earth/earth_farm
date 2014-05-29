@@ -1,8 +1,21 @@
 
-.navbar {
-  .nav {
-    li a {
-      color: $white;
-    }
+.navbar, .navbar-inner {
+  background-color: $olive;
+  li a {
+    color: $white;
+  }
+}
+
+
+//Subheaders
+
+h1,h2,h3,h4,h5,h6 {
+  color: $olive;
+}
+
+.block {
+  h1,h2,h3,h4,h5,h6 {
+    border-bottom: 2px solid $olive;
+    padding-bottom: 3px;
   }
 }

@@ -5,17 +5,10 @@
 @import "partials/typography";
 
 
+// Hide edit tabs from homepage
 
-.navbar {
-  background-color: $olive;
-  li a {
-    color: $white;
+.front {
+  .tabs {
+    display: none;
   }
-}
-
-
-//Subheaders
-
-h1,h2,h3,h4,h5,h6 {
-  color: $olive;
 }

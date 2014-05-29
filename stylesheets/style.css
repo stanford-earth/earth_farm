@@ -1,19 +1,25 @@
 /* http://www.stanford.edu/group/webdev/color/ */
+/* line 2, ../sass/partials/_typography.scss */
+.navbar, .navbar-inner {
+  background-color: #89a85e;
+}
 /* line 4, ../sass/partials/_typography.scss */
-.navbar .nav li a {
+.navbar li a, .navbar-inner li a {
   color: #fbfbf9;
 }
 
-/* line 9, ../sass/style.scss */
-.navbar {
-  background-color: #709d80;
-}
-/* line 11, ../sass/style.scss */
-.navbar li a {
-  color: #fbfbf9;
-}
-
-/* line 19, ../sass/style.scss */
+/* line 12, ../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #709d80;
+  color: #89a85e;
+}
+
+/* line 17, ../sass/partials/_typography.scss */
+.block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
+  border-bottom: 2px solid #89a85e;
+  padding-bottom: 3px;
+}
+
+/* line 11, ../sass/style.scss */
+.front .tabs {
+  display: none;
 }
