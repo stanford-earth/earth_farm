@@ -54,14 +54,24 @@ a {
   background-clip: border-box;
   color: #fbfbf9;
 }
-/* line 44, ../sass/partials/_typography.scss */
+/* line 46, ../sass/partials/_typography.scss */
+.navbar .nav li.dropdown .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open .dropdown-toggle .caret,
+.navbar .nav li.dropdown a:hover .caret,
+.navbar-inner .nav li.dropdown .dropdown-toggle .caret,
+.navbar-inner .nav li.dropdown.open .dropdown-toggle .caret,
+.navbar-inner .nav li.dropdown a:hover .caret {
+  border-top-color: #fbfbf9;
+  border-bottom-color: #fbfbf9;
+}
+/* line 50, ../sass/partials/_typography.scss */
 .navbar ul.dropdown-menu,
 .navbar-inner ul.dropdown-menu {
   border-radius: 5px;
   background-color: #5e8d6c;
   padding: 0;
 }
-/* line 51, ../sass/partials/_typography.scss */
+/* line 57, ../sass/partials/_typography.scss */
 .navbar ul.dropdown-menu li a,
 .navbar ul.dropdown-menu li.active-trail a,
 .navbar ul.dropdown-menu li.active a,
@@ -72,7 +82,7 @@ a {
   color: #fbfbf9 !important;
   padding: .25em;
 }
-/* line 56, ../sass/partials/_typography.scss */
+/* line 62, ../sass/partials/_typography.scss */
 .navbar ul.dropdown-menu li a:hover,
 .navbar ul.dropdown-menu li.active-trail a:hover,
 .navbar ul.dropdown-menu li.active a:hover,
@@ -82,41 +92,41 @@ a {
   background-color: #89a85e !important;
 }
 
-/* line 66, ../sass/partials/_typography.scss */
+/* line 72, ../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #5e8d6c;
 }
 
-/* line 71, ../sass/partials/_typography.scss */
+/* line 77, ../sass/partials/_typography.scss */
 .block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
   border-bottom: 2px solid #5e8d6c;
   padding-bottom: 3px;
 }
-/* line 75, ../sass/partials/_typography.scss */
+/* line 81, ../sass/partials/_typography.scss */
 .block h2 {
   font-size: 1.4em;
 }
 
-/* line 82, ../sass/partials/_typography.scss */
+/* line 88, ../sass/partials/_typography.scss */
 .view.carousel .carousel-caption {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 84, ../sass/partials/_typography.scss */
+/* line 90, ../sass/partials/_typography.scss */
 .view.carousel .carousel-caption h2 {
   color: #fbfbf9;
   border-bottom: none;
 }
-/* line 88, ../sass/partials/_typography.scss */
+/* line 94, ../sass/partials/_typography.scss */
 .view.carousel .carousel-caption.carousel-light {
   background: rgba(255, 255, 255, 0.5);
   color: #3f3c30;
 }
-/* line 91, ../sass/partials/_typography.scss */
+/* line 97, ../sass/partials/_typography.scss */
 .view.carousel .carousel-caption.carousel-light h2 {
   color: #3f3c30;
 }
 
-/* line 98, ../sass/partials/_typography.scss */
+/* line 104, ../sass/partials/_typography.scss */
 .carousel-controls,
 .carousel-dots {
   display: none;

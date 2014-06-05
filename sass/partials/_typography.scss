@@ -41,6 +41,12 @@ a {transition: all 0.25s ease;}
 
     }
   }
+  .nav li.dropdown .dropdown-toggle .caret,
+  .nav li.dropdown.open .dropdown-toggle .caret,
+  .nav li.dropdown a:hover .caret {
+    border-top-color: $white;  
+    border-bottom-color: $white;  
+  }
   ul.dropdown-menu {
     border-radius: 5px;
     background-color: $olive;
