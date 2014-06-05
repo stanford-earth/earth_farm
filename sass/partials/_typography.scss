@@ -41,6 +41,7 @@ a {transition: all 0.25s ease;}
 
     }
   }
+  // Change drop-down caret color to white
   .nav li.dropdown .dropdown-toggle .caret,
   .nav li.dropdown.open .dropdown-toggle .caret,
   .nav li.dropdown a:hover .caret {
@@ -66,6 +67,12 @@ a {transition: all 0.25s ease;}
   }
 }
 
+.btn.btn-navbar,
+.btn.btn-navbar:active {
+  @media(max-width:767px) {
+    background-color: $light-olive;
+  }
+}
 
 //Subheaders
 
@@ -90,6 +97,9 @@ h1,h2,h3,h4,h5,h6 {
   h2 {
     color: $white;
     border-bottom: none;
+    @media(max-width:767px){
+      color: $black;
+    }
   }
   &.carousel-light {
       background: rgba(255,255,255,0.5);
